@@ -27,6 +27,7 @@ func main() {
 		inputlines = append(inputlines, reader.Text())
 
 	}
+	fmt.Printf("Array is %s\n", inputlines[0])
 	numbers := strings.Split(inputlines[0], " ")
 	var LR []string
 	for i := 1; i < len(inputlines); i++ {
